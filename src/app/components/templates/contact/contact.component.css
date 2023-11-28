@@ -1,0 +1,39 @@
+.contact {
+  background: #fff5e1;
+  padding: 2rem;
+}
+.contact__content h2 {
+  color: #e48709;
+  font-size: 3.2rem;
+  font-family: "Dancing Script", sans-serif;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  font-weight: 400;
+  text-align: center;
+}
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__form .form,
+.contact__form .msg {
+  width: 75%;
+}
+
+.msg textarea {
+  height: 20vh;
+  outline: none;
+  resize: none;
+}
+.contact__form button {
+  font-family: "Belleza", sans-serif;
+  font-size: 1.2rem;
+  background: #e48709;
+  color: #fff5e1;
+  padding: 1.3rem;
+  width: 20%;
+  margin-bottom: 1rem;
+}

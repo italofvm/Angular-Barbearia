@@ -1,0 +1,49 @@
+.card {
+  background-color: #e48709;
+  padding: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: "Belleza", sans-serif;
+  color: #f3f3f3;
+}
+.about {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__title {
+  flex: 1;
+  padding: 5rem;
+}
+
+.about__title h2 {
+  font-size: 3.2rem;
+  font-family: "Dancing Script", sans-serif;
+  font-weight: 600;
+  color: #e48709;
+}
+
+.about__title p {
+  font-size: 1.2rem;
+  font-family: "Belleza", sans-serif;
+  width: 95%;
+}
+
+.about__img {
+  flex: 1;
+}
+
+.about__img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

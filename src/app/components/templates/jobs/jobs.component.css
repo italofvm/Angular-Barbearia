@@ -1,0 +1,48 @@
+.jobs {
+  background: #3e2723;
+}
+.jobs__title h2 {
+  color: #fff5e1;
+  font-size: 3.2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  font-family: "Dancing Script", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.jobs__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: #fff5e1;
+  color: #000;
+
+  margin-bottom: 1rem;
+  width: 20rem;
+  height: 20rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 0.5rem;
+}
+.card h3 {
+  font-size: 2rem;
+  font-family: "Belleza", sans-serif;
+}
+
+.card p {
+  font-size: 1rem;
+  width: 75%;
+}

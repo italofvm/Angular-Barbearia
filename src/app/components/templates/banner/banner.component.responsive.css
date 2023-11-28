@@ -1,0 +1,10 @@
+@media (max-width: 990px) {
+  .banner__title {
+    position: absolute;
+    left: 0;
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+}

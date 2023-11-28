@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: "Belleza", sans-serif;
+  scroll-behavior: smooth;
+}
+
+* {
+  text-decoration: none;
+  list-style: none;
+}
+
+.main__content {
+  max-width: 75rem;
+  margin: 0 auto;
+}

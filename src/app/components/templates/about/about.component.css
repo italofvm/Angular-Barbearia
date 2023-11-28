@@ -1,0 +1,45 @@
+.card {
+  background-color: #e48709;
+  padding: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: #fff5e1;
+  line-height: 1.3;
+}
+
+.about__title {
+  flex: 1;
+  padding: 5rem;
+  width: 95%;
+}
+
+.about__title h2 {
+  font-size: 3.2rem;
+  font-family: "Dancing Script", sans-serif;
+  font-weight: 600;
+  color: #e48709;
+}
+
+.about__title p {
+  font-size: 1.2rem;
+  font-family: "Belleza", sans-serif;
+}
+
+.about__img {
+  flex: 1;
+  order: 2;
+  min-width: 450px;
+}
+
+.about__img img {
+  width: 100%;
+  height: auto;
+}
