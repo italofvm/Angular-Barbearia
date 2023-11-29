@@ -12,3 +12,9 @@
   text-align: center;
   padding-top: 1rem;
 }
+
+@media (max-width: 500px) {
+  .footer > p {
+    font-size: 0.7rem;
+  }
+}

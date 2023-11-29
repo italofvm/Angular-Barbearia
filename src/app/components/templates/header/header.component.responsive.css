@@ -1,0 +1,10 @@
+@media (max-width: 500px) {
+  .container {
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .header__logo {
+    display: none;
+  }
+}

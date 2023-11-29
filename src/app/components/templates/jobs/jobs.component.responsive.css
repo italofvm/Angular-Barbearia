@@ -1,0 +1,13 @@
+@media (max-width: 990px) {
+  .jobs__content {
+    justify-content: space-around;
+  }
+}
+@media (max-width: 500px) {
+  .jobs__title h2 {
+    font-size: 2.5rem;
+  }
+  .jobs__content {
+    justify-content: center;
+  }
+}

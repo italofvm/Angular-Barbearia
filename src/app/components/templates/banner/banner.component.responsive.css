@@ -5,6 +5,18 @@
     margin-left: 1rem;
   }
 }
+@media (max-width: 500px) {
+  .banner__title {
+    position: absolute;
+    left: 7rem;
+    margin-left: 1rem;
+  }
 
-@media (max-width: 768px) {
+  .banner__title span {
+    font-size: 2rem;
+  }
+
+  .banner__title h1 {
+    font-size: 4rem;
+  }
 }
