@@ -1,0 +1,16 @@
+@media (max-width: 500px) {
+  .contact__form .form,
+  .contact__form .msg {
+    width: 100%;
+  }
+  .contact__form button {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .about__img {
+    min-width: 500px;
+  }
+}
