@@ -1,0 +1,22 @@
+.back__to__top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background: #e48709;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #17273f;
+  transform: rotate(-90deg);
+  border: 0.2rem solid #fefefe;
+}
+
+@media (max-width: 500px) {
+  .back__to__top {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+}
